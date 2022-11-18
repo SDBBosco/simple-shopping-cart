@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial scale=1">
+      <meta name="description" content="Shopping Cart">
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="js/application.js"></script>
+
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/custom.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <section class="container">
+      <div class="row">
+        <div class="cart-content col-x-12">
+          <h1>Shopping Cart</h1>
+        </div>
+      </div>
+    </section>
+    <section id="product-list" class="container">
+      <div class="row product">
+        <div class="product-name col-xs-3">Banana</div>
+        <div class="product-pice col-xs-3">$1.00</div>
+        <div class="product-qty col-xs-3">
+          <label>qty</label>
+          <input class="qunatity" type="number">
+        </div>
+        <div class="col-xs-1">
+          <button class="remove">Delete</button>
+        </div>
+        <div class="product-subtotal col-xs-2">$--.--</div>
+      </div>
+      <div class="row product">
+        <div class="product-name col-xs-3">Shampoo</div>
+        <div class="product-pice col-xs-3">$13.50</div>
+        <div class="product-qty col-xs-3">
+          <label>qty</label>
+          <input class="qunatity" type="number">
+        </div>
+        <div class="col-xs-1">
+          <button class="remove">Delete</button>
+        </div>
+        <div class="product-subtotal col-xs-2">$--.--</div>
+      </div>
+      <div class="row product">
+        <div class="product-name col-xs-3">Toilet Paper</div>
+        <div class="product-pice col-xs-3">$19.99</div>
+        <div class="product-qty col-xs-3">
+          <label>qty</label>
+          <input class="qunatity" type="number">
+        </div>
+        <div class="col-xs-1">
+          <button class="remove">Delete</button>
+        </div>
+        <div class="product-subtotal col-xs-2">$--.--</div>
+      </div>
+      <div class="row product">
+        <div class="product-name col-xs-3">Paper Towels</div>
+        <div class="product-pice col-xs-3">$19.50</div>
+        <div class="product-qty col-xs-3">
+          <label>qty</label>
+          <input class="qunatity" type="number">
+        </div>
+        <div class="col-xs-1">
+          <button class="remove">Delete</button>
+        </div>
+        <div class="product-subtotal col-xs-2">$--.--</div>
+      </div>
+      <div class="row product">
+        <div class="product-name col-xs-3">Deodorant</div>
+        <div class="product-pice col-xs-3">$5.89</div>
+        <div class="product-qty col-xs-3">
+          <label>qty</label>
+          <input class="qunatity" type="number">
+        </div>
+        <div class="col-xs-1">
+          <button class="remove">Delete</button>
+        </div>
+        <div class="product-subtotal col-xs-2">$--.--</div>
+      </div>
+
+      <div class="row product new">
+        <div class="col-xs-3">
+          <input id="name" placeholder="apple">
+        </div>
+        <div class="col-xs-3">
+          <input id="price" placeholder="30">
+        </div>
+        <div class="col-xs-1">
+          <button id="fork">Add</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12">
+          <h1 class="total-price-label">Cart Total: </h1>
+          <div id="total-price">$--.--</div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
